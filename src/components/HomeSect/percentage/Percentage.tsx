@@ -3,7 +3,7 @@ import React from 'react'
 
 const Percentage = () => {
     return (
-        <div className="w-full p-5 grid gap-10 bg-custom-gradient grid-cols-1 md:grid-cols-3 justify-center items-center">
+        <div className="w-full p-6 md:p-14 grid gap-10 bg-custom-gradient grid-cols-1 md:grid-cols-3 justify-center items-center">
             <div className="bg-white rounded-md px-5 py-5">
                 <div className="h-[100px] text-center">
                     <Image src="/percentage/100.png" alt="100" className='m-auto' height={100} width={100} />
