@@ -18,20 +18,22 @@ const data = [
 const Steps = () => {
 
     return (
-        <PxWrapper>
-            <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
-            {
-                data.map((i) => (
-                    <div className="bg-white px-10 py-10 shadow-2xl" key={i.id}>
-                        <h3 className='text-center bg-gradient-to-r from-blue-600 to-blue-900 text-transparent bg-clip-text mb-5 text-3xl md:text-4xl'>{i.title}</h3>
-                        <h5 className='text-center mb-4 text-2xl '>{i.instructions}</h5>
-                        <p className='text-center text-[#758EB3] text-lg'>{i.description}</p>
-                    </div>
+        <div className="stepbg">
+            <PxWrapper>
+                <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:px-20">
+                    {
+                        data.map((i) => (
+                            <div className="bg-white px-10 py-10 shadow-2xl" key={i.id}>
+                                <h3 className='text-center bg-gradient-to-r from-blue-600 to-blue-900 text-transparent bg-clip-text mb-5 text-3xl md:text-4xl'>{i.title}</h3>
+                                <h5 className='text-center mb-4 text-2xl '>{i.instructions}</h5>
+                                <p className='text-center text-[#758EB3] text-lg'>{i.description}</p>
+                            </div>
 
-                ))
-            }
-            </div>
-        </PxWrapper>
+                        ))
+                    }
+                </div>
+            </PxWrapper>
+        </div>
     )
 }
 

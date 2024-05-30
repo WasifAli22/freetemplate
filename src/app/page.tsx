@@ -12,6 +12,7 @@ import DontLimit from "@/components/HomeSect/dontLimit/DontLimit";
 import Parentsof from "@/components/HomeSect/parentsOf/Parentsof";
 import Percentage from "@/components/HomeSect/percentage/Percentage";
 import Steps from "@/components/HomeSect/steps/step";
+import MasterMind from "@/components/HomeSect/mastermind/MasterMind";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <CollegeAdmission />
       <NoGurrante />
       <Percentage />
+      <MasterMind />
       <Weare />
       <Wewant />
       <MoreOpportunities />

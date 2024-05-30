@@ -27,3 +27,12 @@
     text-align: center;
     border-radius: 50%;
 }
+
+.stepbg{
+    background-image: url('/bgimg.png');
+    height: 100%;
+    width: 100%;
+    background-position: right bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
