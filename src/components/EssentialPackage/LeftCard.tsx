@@ -7,10 +7,6 @@ const LeftCard = () => {
             <section className='shadow-2xl rounded-xl px-4 py-8'>
                 <Image src="/packages/clgpackage.png" className='mb-5' alt='packages' width={250} height={200} />
                 <div className="flex justify-between py-2 border-b-2 border-[#D9D9D9]">
-                    <small>Duration</small>
-                    <small className='text-[#758EB3]'>At Least 15 weeks</small>
-                </div>
-                <div className="flex justify-between py-2 border-b-2 border-[#D9D9D9]">
                     <small>Sessions</small>
                     <small className='text-[#758EB3]'>35</small>
                 </div>
