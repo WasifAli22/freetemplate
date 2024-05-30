@@ -10,6 +10,7 @@ import MoreOpportunities from "@/components/HomeSect/moreOpportunities/MoreOppor
 import IfYou from "@/components/HomeSect/ifyou/IfYou";
 import DontLimit from "@/components/HomeSect/dontLimit/DontLimit";
 import Parentsof from "@/components/HomeSect/parentsOf/Parentsof";
+import Percentage from "@/components/HomeSect/percentage/Percentage";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Parentsof />
       <CollegeAdmission />
       <NoGurrante />
+      <Percentage />
       <Weare />
       <Wewant />
       <MoreOpportunities />
