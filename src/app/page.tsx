@@ -16,7 +16,6 @@ import Steps from "@/components/HomeSect/steps/step";
 export default function Home() {
   return (
     <div className="bg-[#f0f9fe]">
-      <Navbar />
       <Webbanner />
       <GetStructer />
       <Parentsof />
