@@ -11,6 +11,7 @@ import IfYou from "@/components/HomeSect/ifyou/IfYou";
 import DontLimit from "@/components/HomeSect/dontLimit/DontLimit";
 import Parentsof from "@/components/HomeSect/parentsOf/Parentsof";
 import Percentage from "@/components/HomeSect/percentage/Percentage";
+import Steps from "@/components/HomeSect/steps/step";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Wewant />
       <MoreOpportunities />
       <IfYou/>
+      <Steps />
       <DontLimit/>
     </div>
   );
