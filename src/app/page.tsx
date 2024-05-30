@@ -5,6 +5,8 @@ import Parentsof from "@/components/parentsOf/Parentsof";
 import NoGurrante from "@/components/noGurranteSect/NoGurrante";
 import GetStructer from "@/components/getStructer/GetStructer";
 import CollegeAdmission from "@/components/collgeadmission/CollegeAdmission";
+import Wewant from "@/components/wewant/Wewant";
+import Weare from "@/components/weare/Weare";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Parentsof />
       <CollegeAdmission />
       <NoGurrante />
+      <Weare />
+      <Wewant />
     </div>
   );
 }
