@@ -1,6 +1,6 @@
 import React from 'react'
-import PxWrapper from '../shares/PxWrapper'
 import Image from 'next/image'
+import PxWrapper from '@/components/shares/PxWrapper'
 
 const Parentsof = () => {
     return (
@@ -29,7 +29,7 @@ const Parentsof = () => {
                         </ul>
                     </div>
                 </div>
-                <p className='text-lg mt-10 md:px-20 text-[#758EB3]'>You need a predictable college admissions approach to take away your uncertainty, guidance to get things done efficiently, and peace of mind so that you can finally stop chasing after answers and information and get your child an actionable plan that you trust.</p>
+                <p className='text-lg mt-10 text-center text-[#758EB3]'>You need a predictable college admissions approach to take away your uncertainty, guidance to get things done efficiently, and peace of mind so that you can finally stop chasing after answers and information and get your child an actionable plan that you trust.</p>
             </PxWrapper>
         </div>
     )

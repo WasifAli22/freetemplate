@@ -1,5 +1,5 @@
 import React from 'react'
-import PxWrapper from '../shares/PxWrapper'
+import PxWrapper from '../../shares/PxWrapper'
 import Image from 'next/image'
 
 const Wewant = () => {

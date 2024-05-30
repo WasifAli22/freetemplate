@@ -17,7 +17,7 @@ const Webbanner = () => {
 
                 <div className="text-center mb-10 md:text-left col-span-12 md:col-span-4 relative ml-auto mr-auto md:mr-0 md:ml-auto">
                     <Image src="/banner/bannerleft.png" width={300} height={300} alt="asdf" />
-                    <div className="absolute top-[50%]">
+                    <div className="absolute top-[50%] left-[50%]">
                         <Image src="/banner/play.png" width={50} height={50} alt='play' />
                     </div>
                 </div>

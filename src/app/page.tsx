@@ -1,12 +1,15 @@
 import Image from "next/image";
 import Webbanner from "@/components/highAchiversSect/webbanner";
 import Navbar from "@/components/Navbar/Navbar"
-import Parentsof from "@/components/parentsOf/Parentsof";
-import NoGurrante from "@/components/noGurranteSect/NoGurrante";
-import GetStructer from "@/components/getStructer/GetStructer";
-import CollegeAdmission from "@/components/collgeadmission/CollegeAdmission";
-import Wewant from "@/components/wewant/Wewant";
-import Weare from "@/components/weare/Weare";
+import NoGurrante from "@/components/HomeSect/noGurranteSect/NoGurrante";
+import GetStructer from "@/components/HomeSect/getStructer/GetStructer";
+import CollegeAdmission from "@/components/HomeSect/collgeadmission/CollegeAdmission";
+import Wewant from "@/components/HomeSect/wewant/Wewant";
+import Weare from "@/components/HomeSect/weare/Weare";
+import MoreOpportunities from "@/components/HomeSect/moreOpportunities/MoreOpportunities";
+import IfYou from "@/components/HomeSect/ifyou/IfYou";
+import DontLimit from "@/components/HomeSect/dontLimit/DontLimit";
+import Parentsof from "@/components/HomeSect/parentsOf/Parentsof";
 
 export default function Home() {
   return (
@@ -19,6 +22,9 @@ export default function Home() {
       <NoGurrante />
       <Weare />
       <Wewant />
+      <MoreOpportunities />
+      <IfYou/>
+      <DontLimit/>
     </div>
   );
 }
